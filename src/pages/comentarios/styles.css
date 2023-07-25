@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+#banner {
+    background-image: url('https://external-preview.redd.it/fMRY7dg2IT8iQi1JkYAmYB-wdeGNqfcgji2xoZKBUDs.jpg?auto=webp&s=953d4c0d1304daf3f56dbd621cc171b60c98b413');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'kdam Thmor Pro', sans-serif;
+    color: red;
+    margin-top: 3%;
+    font-size: x-large;
+}

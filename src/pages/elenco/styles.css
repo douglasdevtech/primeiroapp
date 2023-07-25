@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#banner {
+    background-image: url('https://external-preview.redd.it/fMRY7dg2IT8iQi1JkYAmYB-wdeGNqfcgji2xoZKBUDs.jpg?auto=webp&s=953d4c0d1304daf3f56dbd621cc171b60c98b413');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.text {
+    color: red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'kdam Thmor Pro', sans-serif;
+    font-size: x-large;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+
+
+.banner-4 {
+    background-image: url('http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTGzJySsJWVZqvegInIYcH1BvO0-8qShJK7bjU_yyrka7hef1Ri9eLLViKBJb7XKcsp');
+   }
+
+   .banner-5 {
+    background-image: url('http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQL4RxPd5odz8F5bkeLq7LokFpO0jPIk2SFxtCaUOqWxWPR-TLxB4ZwqLzjnrx7OzOy');
+   }
+
+   .banner-6 {
+    background-image: url('http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSgXmC4eaf6jiZ_MUhp0x4lL4wJt7AnTNmSY7GXv4ZFFDoO8NWXNoStcUHGyx1wvtaQ');
+   }
+
+   .banner-7 {
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRv0NonJSaRqacW_-m4w6aWeT0Z2t3AN8WVN4XXhbwSVTBpNrKH');
+   }
+
+   .banner-8 {
+    background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTSlZd5-MZ3Gpc8M5PRjuNLKdocnb8rGOV3z2_zNu-LgEFcgKER');
+   }
+
+   .banner-9 {
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRXxbpxQsnD0rhnEy3fV4aX7BtKG3JKYHNKi-pfPSlp1qU6R0ME');
+   }

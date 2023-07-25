@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcR8rWXVJ3ljSLAw8gKzmsRe18FsFRqD59lo3wUIG_u1-HCOX2uSRm1qudFwTr1eGMeP'); 
+}
+
+.banner-2 {
+    background-image: url('https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRbMQxH8XeIAoKq02dU9NOogfjcrmRhAQDk7h2Z_vv7juvJzLaJM-BheM68xndFOR1p');
+}
+
+.banner-3 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMzA3ZmNjNGEtMWI5Yi00ZTY4LWJlMWEtM2Y2YTM3Yjg0MTkwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg');
+}
+
+@media (max-width:768px){
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
